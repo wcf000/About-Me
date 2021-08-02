@@ -1,0 +1,99 @@
+#me {
+  width: 200px;
+  text-align: left;
+  max-width: 100%;
+  height: auto;
+  border: 4px dashed brown;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.orange {
+  color: #f28611;
+}
+
+.blueBackground {
+  background-color: lightblue;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.greenBackground {
+  background-color: green;
+}
+
+#imgTwo {
+  border-radius: 20px;
+  border: 2px solid yellowgreen;
+}
+
+header {
+  text-align: center;
+}
+
+.navbar {  
+  display: inline;
+  padding: 0px 15px 0px 15px;
+}
+
+.left {
+  text-align: left;
+}
+
+#intro {
+  text-align: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.inline {
+  display: inline;
+}
+
+#aboutMe {
+  margin: 20px 0 15px 0;
+}
+
+.green {
+  background-color: #34ebae;
+}
+
+.grey {
+  background-color: grey;
+  padding: 0px;
+}
+
+#shadow {
+  color: #ff57f4;
+  text-shadow: 2px 2px 3px #770000, 3px 3px 25px blue, 3px 3px 5px lightblue;
+}
+
+#space {
+  background-image: url("sky.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+#buttonOne {
+  padding: 2px 5px;
+  display: inline-block;
+}
+
+#buttonTwo {
+  padding: 2px 5px;
+  display: inline-block;
+}
+
+#click {
+  margin: 0px 0px 0px 0px;
+  color: blue;
+}
+
+#funFact {
+  visibility: hidden;
+}

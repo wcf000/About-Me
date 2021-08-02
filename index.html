@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body id="space">
+  <div class="green">
+    <header>
+      <h1 id="shadow" onload="blink()">About Me</h1>
+    </header>
+  </div>
+  <div>
+    <a href="index.html"><button id="buttonOne" onmouseover="largerButton(this)" onmouseout="normalButton(this)">About Me</button></a>
+    <a href="player.html"><button id="buttonTwo" onmouseover="largerButton(this)" onmouseout="normalButton(this)">My Favorite Player</button></a>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col"><img id="me" onmouseover="blinkBorder()" onmouseout="normalBorder()" src="image.jpeg" alt="My photo"></div>
+      <div class="col">
+        <ul id="intro">
+          <li>Name: Chun Fung Wong (Marco)</li>
+          <li>Age: 18</li>
+          <li>Email: <a href="mailto:wcf8889@gmail.com"><p class="inline">wcf8889@gmail.com</p></a></li>
+        </ul>
+      </div>          
+    </div>
+  </div>
+  <div>
+      <details id="aboutMe">
+          <summary><mark>About Me</mark></summary>
+          <p>My name is Marco. I am currently living in New York. Because of this
+          pandemic, I do not have many chances to visit the whole city, but I believe that I will have this chance in the future.
+          I love playing soccer very much, and I have played it since I was very small. My favourite food is spaghetti which I always cook when I have free time. I
+          am a talkative and careful person. I am happy to talk to others and look at details.</p>
+      </details>
+    </div>
+    <div>
+      <details>
+          <summary><mark>Fun Facts</mark></summary>
+          <ul>
+            <li>Moved to US in 2019</li>
+            <li>Studying in Emma Lazarus High School</li>
+            <li>Want to pursue Computer Science in thte future</li>
+          </ul>
+      </details>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
